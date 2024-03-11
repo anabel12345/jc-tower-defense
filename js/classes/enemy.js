@@ -11,7 +11,7 @@ class Enemy {
             y:this.position.y+this.height/2
        }
        this.image = new Image()
-       this.image.src = '../../assets/images/orc.png'
+       this.image.src = 'assets/images/orc.png'
        this.velocity = 2+(0.4*level);
        this.health = 100;
        this.frames = 0;//total number of frames that has passed
