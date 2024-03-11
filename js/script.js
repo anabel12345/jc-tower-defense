@@ -7,8 +7,9 @@ let canvasStyle = window.getComputedStyle(canvas)
 console.log('margin '+ canvasStyle.marginLeft)
 const gameMap = new Image()
 gameMap.src = 'assets/images/jo-co.png'
-gameMap.onload = ()=>canvasCtx.drawImage(gameMap, 0,0)
-
+gameMap.onload = ()=>{canvasCtx.drawImage(gameMap, 0,0)
+                      console.log('gamemap loaded')
+                     }
 
 let canPlaceBuilding = false;
 let coins = 80;
