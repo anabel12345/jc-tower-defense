@@ -51,7 +51,7 @@ document.querySelector('#continue').addEventListener('click',()=>{
         startInstructions.textContent = 'Place a building on the map by clicking on any highlighted tile.'}
     else if(startSlidesIndex ==4){
             let img = document.createElement('img');
-            img.setAttribute('src','../assets/images/building-click.jpg')
+            img.setAttribute('src','assets/images/building-click.jpg')
             startInstructions.textContent = 'Click on a tile to upgrade its tower.'
             img.style.display = 'block'
             img.style.margin = 'auto'
