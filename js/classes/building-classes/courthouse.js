@@ -3,7 +3,7 @@ class Courthouse extends Building{
         console.log(position)
         super(position, 10, 250, 2);//upgrade cost of 10, radius of 250, projectile speed of 2
         this.image = new Image()
-        this.image.src = '../../assets/images/courthouse.jpg'
+        this.image.src = 'assets/images/courthouse.jpg'
         this.level = 1;
         this.facts = ['The Johnson County courthouse as seen today was finished in 1882 after a fire caused destruction to the previous in 1874', 
         'The courthouse is architecturally significant and admired for its unique pyramid structure and its symmetry.',
