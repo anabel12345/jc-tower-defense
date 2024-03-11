@@ -6,7 +6,7 @@ canvas.height=768
 let canvasStyle = window.getComputedStyle(canvas)
 console.log('margin '+ canvasStyle.marginLeft)
 const gameMap = new Image()
-gameMap.src = '../assets/images/jo-co.png'
+gameMap.src = 'assets/images/jo-co.png'
 gameMap.onload = ()=>canvasCtx.drawImage(gameMap, 0,0)
 
 
