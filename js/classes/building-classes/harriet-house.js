@@ -2,7 +2,7 @@ class HerriotHouse extends Building{
     constructor({position = {x:0, y:0}}){
         super(position, 10, 250, 2);//upgrade cost of 10, radius of 250, projectile speed of 2
         this.image = new Image()
-        this.image.src = '../../assets/images/herriot.jpg'
+        this.image.src = 'assets/images/herriot.jpg'
         this.level = 1;
         this.facts = ['The Herriot House, is also known as the Brown-Ritchey House.', 
         'The Herriot House is located in Franklin, Indiana.',
