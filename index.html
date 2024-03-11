@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="send-wave">Send Wave</button>
+    <button id="add-building">Add Building</button>
+    <dialog id="start-instructions-dialog">
+        <p id="start-instructions">Johnson County is under attack by zombies!</p>
+        <button id="continue">Continue</button>
+    </dialog>
+    <dialog id="choose-building">
+        <p>Add a tower</p>
+        <button class = "building-button" id = "franklin-college" data-cost = "10">Franklin College 10 coins</button>
+        <button class="building-button" id="furnas-bridge" data-cost = "15">Furnas Mill Bridge 15 coins</button>
+        <button class="building-button" id="courthouse" data-cost = '20'>Johnson County Courthouse 20 coins</button>
+        <button class="building-button" id="herriot-house" data-cost = '35'>Herriot House 35 coins</button>
+        <button class="building-button" id="heck-hasler-house" data-cost = '45'>Heck Hasler House 45 coins</button>
+    </dialog>
+    <dialog id="game-over"><p>You died!</p>
+        <button id="restart">
+            Restart
+        </button>
+    </dialog>
+    <canvas></canvas>
+    <div class="coins">
+        coins: 0
+    </div>
+    <div class="level">
+        wave: 0
+    </div>
+    <dialog id="fact-display">
+        <button id="close">close</button>
+    </dialog>
+    <div class="health">
+        health: 0
+    </div>
+    <dialog id="no-money">You don't have enough money to buy this.</dialog>
+    <script src="./js/classes/projectile.js"></script>
+    <script src="./js/classes/building.js"></script>
+    <script src="./js/classes/building-classes/franklin-college.js"></script>
+    <script src="./js/classes/building-classes/furnas-bridge.js"></script>
+    <script src="./js/classes/building-classes/courthouse.js"></script>
+    <script src="./js/classes/building-classes/harriet-house.js"></script>
+    <script src="./js/classes/building-classes/heck-hasler-house.js"></script>
+    <script src="./js/waypoint-data.js"></script> 
+    <script src="./js/classes/enemy.js"></script>
+    <script src="./js/classes/placement-tile.js"></script>
+    <script src="./js/placement-tiles-data.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

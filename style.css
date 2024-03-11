@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    padding:auto;
+    display:flex;
+    justify-content: center;
+}
+
+dialog{
+    max-width:800px;
+}
+
+button#send-wave, button#add-building{
+    position:fixed;
+    
+    padding:10px;
+    border:none;
+    border-radius:15px;
+}
+.demo-btn{
+    padding:10px;
+    border:none;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+    border-radius:15px;
+}
+button#send-wave{
+    left:20px;
+    top:20px;
+}
+button#add-building{
+    left:20px;
+    top:80px;
+}
+
+button#send-wave:hover, button#add-building:hover{
+    background-color: black;
+    color:white;
+}
+
+dialog#game-over{
+    border:none;
+    border-radius:25px;
+    font-size:100px;
+    padding:40px;
+    font-family: sans-serif;
+   text-align:center;
+}
+
+.level, .coins, .health{
+    position:fixed;
+    color:white;
+    background-color: black;
+    font-size:80px;
+    padding:5px;
+    font-family: sans-serif;
+    border-radius:15px;
+    padding:10px;
+}
+
+.level{
+    top:20px;
+    right:20px;
+}
+
+
+.coins{
+    top:170px;
+    right:20px;
+    z-index:1000;
+}
+
+
+.health{
+    left:20px;
+    bottom:20px;
+}
+
+canvas{
+    margin:auto;
+}
+
+dialog{
+    background: url('./assets/images/creepy_forest.jpg') center/cover;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.5s ease;
+    font-family: 'Creepster', cursive;
+    font-size: 48px;
+}
+dialog button#continue, button.start, .building-button, button#restart {
+    background-color: #AA2200;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+dialog button#continue:hover, button.start:hover, button#restart {
+    background-color: #881A00;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform:  scale(1);
+    }
+  }
+
+  #start-instructions{
+    background-color: rgba(0,0,0,0.8);
+    padding:15px;
+  }
+  dialog p{
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+  #choose-building p, #game-over p{
+    display:block;
+  }
+
+  
