@@ -1,15 +1,20 @@
 // set up canvas/background
-const canvas = document.querySelector('canvas')
-const canvasCtx = canvas.getContext ('2d')
-canvas.width = 1280
-canvas.height=768
-let canvasStyle = window.getComputedStyle(canvas)
-console.log('margin '+ canvasStyle.marginLeft)
-const gameMap = new Image()
-gameMap.src = 'assets/images/jo-co.png'
-gameMap.onload = ()=>{canvasCtx.drawImage(gameMap, 0,0)
-                      console.log('gamemap loaded')
-                     }
+const canvas = document.querySelector('canvas');
+const canvasCtx = canvas.getContext('2d');
+let canvasStyle = window.getComputedStyle(canvas);
+
+// Set canvas dimensions
+canvas.width = 1280;
+canvas.height = 768;
+
+const gameMap = new Image();
+gameMap.src = 'assets/images/jo-co.png';
+gameMap.onload = () => {
+    // Draw the game map once it's loaded
+    canvasCtx.drawImage(gameMap, 0, 0);
+    console.log('gamemap loaded');
+};
+
 
 let canPlaceBuilding = false;
 let coins = 80;
