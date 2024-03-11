@@ -3,7 +3,7 @@ class franklinCollege extends Building{
         console.log(position)
         super(position, 10, 250, 3);//upgrade cost of 10, radius of 250, projectile speed of 2
         this.image = new Image()
-        this.image.src = '../../assets/images/franklin-college.jpg'
+        this.image.src = 'assets/images/franklin-college.jpg'
         this.level = 1;
         this.facts = ['Franklin College was originally known as the Indiana Baptist Labor Institute. The name was changed to Franklin College in 1844.', 
         'Franklin college only serverd 40 students at its start, offering mostly arts degrees. Now, it serves around 1000 students!',
