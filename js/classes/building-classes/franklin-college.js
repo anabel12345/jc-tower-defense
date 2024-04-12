@@ -6,7 +6,7 @@ class franklinCollege extends Building{
         this.image.src = 'assets/images/franklin-college.jpg'
         this.level = 1;
         this.facts = ['Franklin College was originally known as the Indiana Baptist Labor Institute. The name was changed to Franklin College in 1844.', 
-        'Franklin college only serverd 40 students at its start, offering mostly arts degrees. Now, it serves around 1000 students!',
+        'Franklin college only served 40 students at its start, offering mostly arts degrees. Now, it serves around 1000 students!',
         'Franklin College has Gothic-Victorian architecture.']
     }
 
