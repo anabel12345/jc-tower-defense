@@ -5,7 +5,7 @@ class HeckHaslerHouse extends Building{
         this.image.src = 'assets/images/heck-hasler.jpg'
         this.level = 1;
         this.facts = ['This farmhouse is important to Johnson County because it has easy water access, making it important for farming!', 
-        'The Heck-Hasler house is important because it was very close to the Indianapolic-Madison railroad, the most important railroad in Indiana at the time.',
+        'The Heck-Hasler house is important because it was very close to the Indianapolis-Madison railroad, the most important railroad in Indiana at the time.',
         'The Heck-Hasler House was built in 1868.',
     ]
     }
