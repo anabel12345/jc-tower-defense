@@ -4,8 +4,8 @@ class FurnasMillBridge extends Building{
         this.image = new Image()
         this.image.src = 'assets/images/furnas_mill_bridge.jpg'
         this.level = 1;
-        this.facts = ['The Furnas Mill Bridge was building in 1880', 
-        'The Furnas Mill Bridge was building by the King Bridge Company of Cleveland, Ohio',
+        this.facts = ['The Furnas Mill Bridge was built in 1880', 
+        'The Furnas Mill Bridge was built by the King Bridge Company of Cleveland, Ohio',
         'The Furnas Mill Bridge is located in the Atterbury Fish and Wildlife area']
     }
 
