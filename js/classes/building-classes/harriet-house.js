@@ -4,7 +4,7 @@ class HerriotHouse extends Building{
         this.image = new Image()
         this.image.src = 'assets/images/herriot.jpg'
         this.level = 1;
-        this.facts = ['The Herriot House, is also known as the Brown-Ritchey House.', 
+        this.facts = ['The Herriot House is also known as the Brown-Ritchey House.', 
         'The Herriot House is located in Franklin, Indiana.',
         'The original owner, Samuel Herriot, came to Franklin in in 1820 and helped establish the town. His brother, John Herriot, joined him in 1827 and became county treasurer',
         'The Herriot House was built in the 1860s.',
