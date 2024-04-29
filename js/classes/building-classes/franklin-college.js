@@ -1,7 +1,7 @@
 class franklinCollege extends Building{
     constructor({position = {x:0, y:0}}){
         console.log(position)
-        super(position, 10, 250, 3);//upgrade cost of 10, radius of 250, projectile speed of 2
+        super(position, 10, 250, 4);//upgrade cost of 10, radius of 250, projectile speed of 2
         this.image = new Image()
         this.image.src = 'assets/images/franklin-college.jpg'
         this.level = 1;
