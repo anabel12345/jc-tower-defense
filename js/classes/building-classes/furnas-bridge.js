@@ -1,6 +1,6 @@
 class FurnasMillBridge extends Building{
     constructor({position = {x:0, y:0}}){
-        super(position, 10, 250, 2);//upgrade cost of 10, radius of 250, projectile speed of 2
+        super(position, 10, 250, 4);//upgrade cost of 10, radius of 250, projectile speed of 2
         this.image = new Image()
         this.image.src = 'assets/images/furnas_mill_bridge.jpg'
         this.level = 1;
